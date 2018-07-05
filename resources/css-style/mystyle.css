@@ -1,0 +1,194 @@
+
+body {
+    background-color: #a9cce3;
+
+    opacity: 0.9;
+}
+
+
+.div1 {
+    float: left;
+    width: 25%;
+}
+.div2 {
+    float: left;
+    width: 75%;
+
+}
+#hiddenDiv { display: none; }
+#finalsubmit[disabled]:hover + #hiddenDiv { display: block; }
+
+.div1 p {
+    margin-left: 7px;
+    font-family: courier; 
+    color: #00008b;
+}
+.div1 img {
+    width: 19em; 
+    height: auto;
+}
+
+
+.header {
+	background-color: #1a5276;
+	font-family: courier;
+  margin: auto;
+  color: #fffff0;
+  
+
+	 
+}
+.header img {
+  
+  background: #1a5276;
+  height: 50px;
+  width: 50px;
+  margin-left: 36vw;
+  vertical-align: bottom;
+
+  
+  }
+.header i {
+  font-size: 50px;
+  }
+
+.information {
+    background-color:#ffffe0;
+    color: black;
+    font-family: sofia; 
+    width: 100%;
+    opacity: 0.9;
+    text-align: center;
+    height: 40px;
+    display: inline-block;
+  }
+  .partners{
+    float: left;
+    opacity: 0.7;
+    font-size: 26px;
+    margin-left: 520px;
+    margin-right: 28px;
+
+  }
+  #partnerName{
+    display: inline;
+    font-size: 20px;
+    display: table-row;
+    padding-top: 5px;
+
+
+
+  }
+  #partnerName img{
+    vertical-align: middle;    
+  }
+
+
+  fieldset {
+   /* background-image: url("../images/bg.png") repeat 0 0;*/
+
+    background-color: #d3d3d3;
+  }
+  #medium {
+    float: left; 
+    width: 50%; 
+    height: auto;
+    display: table-cell;
+  }
+  #large {
+    float: left; 
+    width: 100%; 
+    height: auto;
+  }
+  #last {
+    background-color: #1a5276; 
+    padding-left: 7px; 
+    float: left; 
+    width:100%;
+    text-align: center;
+  }
+
+input[type=text], textarea, {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    padding-left: 7px;
+
+}
+
+select{
+  width: 174px;
+  padding-left: 7px;
+  margin-left: 12px;
+}
+
+
+label {
+    padding: 12px 12px 12px;
+    display: inline-block;
+}
+.gender {
+    padding: 2px 12px 2px;
+    display: inline-block;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+
+
+input, textarea {
+	margin-left: 12px;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+input.invalid, textarea.invalid, select.invalid{
+  border: 2px solid #8b0000;
+}
+
+input.valid, textarea.valid, select.valid{
+  border: 2px solid #006400;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row1 {
+  float: right;
+  padding-top: 8px;
+}
+#news{
+  float: left;
+}
+
+sup{
+  color: #ff0000;
+}
+@media (max-width: 75em) {
+    div, fieldset {
+      float: all;
+      width: 100%;
+      overflow: auto;
+
+    }
+}
+
+
+
+
+
